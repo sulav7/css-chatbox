@@ -30,16 +30,18 @@ input[type="text"]{
     position: relative;
     background-color: #565E70;
     width: 35px;
-    height: 41px;
+    height: 40px;
     color: white;
     line-height: 39px;
     border-radius: 5px 5px 5px 5px;
     right: 25px;
+    font-weight: 800;
 }
 .fa-magnifying-glass:before, .fa-search:before {
    
     text-align: center;
     margin-left: 8px;
+    
    
 }
 .add-button{
@@ -80,6 +82,8 @@ input[type="text"]{
     display: flex;
     justify-content: space-evenly;
     margin-top: 10px;
+    
+    
 }
 .chatroom-container h1{
     font-size: 15px;
@@ -120,6 +124,7 @@ height: 140px;
     width: 95px;
     height: 140px;
 }
+
 .chat-section img{
     height: 50px;
     width: 50px;
@@ -134,7 +139,7 @@ height: 140px;
     display: flex;
     justify-content: space-evenly;
     color: white;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 .chat-1 p1{
     font-size: 10px;
@@ -158,4 +163,16 @@ height: 140px;
 }
 .icon i{
     color: white;
+}
+.dot-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.dot-section i{
+    color: #C4C4C4;
+    margin: 5px;
+    font-size: 3px;
+    
 }
